@@ -10,21 +10,17 @@ int main()
 
     switch(choice)
     {
-
+    case 1:
+    printf("This case contains the prime number");
+    break;
 
 
     default:
         printf("choice is invalid");
-
     }
 
     return 0;
 
-<<<<<<< HEAD
-case 1:
-    printf("This case contains the prime number");
-    break;
-=======
 
->>>>>>> 9136f621fce7643eba056fa7f6d61d6b87b5725d
+
 }
