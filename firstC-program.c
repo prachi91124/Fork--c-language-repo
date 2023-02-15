@@ -11,6 +11,9 @@ int main()
 
     switch(choice)
     {
+        case 1:
+        printf("This case contains the prime number");
+        break;
 
         case4:
         printf("This is the Fibonacci Series");
@@ -20,12 +23,16 @@ int main()
         printf("Factorial Logic");
         break;
 
+        case5:
+        printf("Reverse of a number");
+        break;
+
         default:
         printf("choice is invalid");
-
     }
 
     return 0;
+
 
 
 }
