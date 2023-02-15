@@ -1,12 +1,25 @@
 #include<stdio.h>
 int main()
 {
-    int num =0;
+    int num =0, choice =0;
     printf("Enter any number");
     scanf("%d",&num);
-    return 0;
 
-    case4:
+    printf("enter your choice");
+    scanf("%d",&choice);
+
+    switch(choice)
+    {
+        case4:
         printf("This is the Fibonacci Series");
         break;
+
+    default:
+        printf("choice is invalid");
+
+    }
+
+    return 0;
+
+
 }
