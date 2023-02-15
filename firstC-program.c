@@ -5,17 +5,22 @@ int main()
     printf("Enter any number");
     scanf("%d",&num);
 
+
     printf("enter your choice");
     scanf("%d",&choice);
 
     switch(choice)
     {
 
-    case5:
-    printf("Reverse of a number");
-    break;
+        case 3:
+        printf("Factorial Logic");
+        break;
 
-    default:
+        case5:
+        printf("Reverse of a number");
+        break;
+
+        default:
         printf("choice is invalid");
 
     }
