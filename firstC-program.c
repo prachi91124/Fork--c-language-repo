@@ -6,7 +6,7 @@ int main()
     scanf("%d",&num);
 
 
-    printf("enter your choice");
+    printf("choose your choice betweem 1 to 6");
     scanf("%d",&choice);
 
     switch(choice)
@@ -15,15 +15,23 @@ int main()
         printf("This case contains the prime number");
         break;
 
-        case4:
+        case 4:
         printf("This is the Fibonacci Series");
+        break;
+
+        case 2:
+        printf("Armstrong Logic");
+        break;
+
+        case 6:
+        printf("This contains the pallindrome logic");
         break;
 
         case 3:
         printf("Factorial Logic");
         break;
 
-        case5:
+        case 5:
         printf("Reverse of a number");
         break;
 
