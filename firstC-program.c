@@ -19,6 +19,10 @@ int main()
         printf("Factorial Logic");
         break;
 
+        case5:
+        printf("Reverse of a number");
+        break;
+
         default:
         printf("choice is invalid");
     }
