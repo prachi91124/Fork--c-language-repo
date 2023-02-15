@@ -5,17 +5,21 @@ int main()
     printf("Enter any number");
     scanf("%d",&num);
 
+
     printf("enter your choice");
     scanf("%d",&choice);
 
     switch(choice)
     {
-    case 1:
-    printf("This case contains the prime number");
-    break;
+        case 1:
+        printf("This case contains the prime number");
+        break;
 
+        case 3:
+        printf("Factorial Logic");
+        break;
 
-    default:
+        default:
         printf("choice is invalid");
     }
 
