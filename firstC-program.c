@@ -11,9 +11,10 @@ int main()
     switch(choice)
     {
 
-    case5{
-        printf("Reverse of a number");
-    }
+    case5:
+    printf("Reverse of a number");
+    break;
+
     default:
         printf("choice is invalid");
 
