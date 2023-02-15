@@ -5,16 +5,22 @@ int main()
     printf("Enter any number");
     scanf("%d",&num);
 
+
     printf("enter your choice");
     scanf("%d",&choice);
 
     switch(choice)
     {
+
         case4:
         printf("This is the Fibonacci Series");
         break;
 
-    default:
+        case 3:
+        printf("Factorial Logic");
+        break;
+
+        default:
         printf("choice is invalid");
 
     }
