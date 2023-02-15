@@ -35,6 +35,10 @@ int main()
         printf("Reverse of a number");
         break;
 
+        case 9;
+        printf("Square of a number")
+        break;
+
         default:
         printf("choice is invalid");
     }
