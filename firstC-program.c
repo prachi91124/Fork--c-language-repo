@@ -5,4 +5,8 @@ int main()
     printf("Enter any number");
     scanf("%d",&num);
     return 0;
+
+    case4:
+        printf("This is the Fibonacci Series");
+        break;
 }
